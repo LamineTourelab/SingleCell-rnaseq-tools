@@ -1,4 +1,4 @@
-# SingleCell-rnaseq Workflow
+# SingleCell-rnaseq Workflows
 This repository contains single cell analysis pipelines. 
 
 ## RNA Velocity 
