@@ -7,11 +7,12 @@ RNA velocity is a high-dimensional vector that predicts the future state of indi
 
 ### With scVelo
 
-scVelo can be used to analysis RNA velocity, latent time, driver identification 
+scVelo can be used to analysis RNA velocity, latent time, driver identification. See [scVelo](https://scvelo.readthedocs.io/en/stable/).
 
 First of all, the input data for scVelo are two count matrices of pre-mature (unspliced) and mature (spliced) abundances, which can be obtained from standard sequencing protocols, using the velocyto or kallisto counting pipeline. Here is velocyto example:
 
-```velocyto run10x -m repeat_msk.gtf mypath/sample01 somepath/refdata-cellranger-mm10-1.2.0/genes/genes.gtf
+```
+velocyto run10x -m repeat_msk.gtf mypath/sample01 somepath/refdata-cellranger-mm10-1.2.0/genes/genes.gtf
 ```
 Where genes.gtf is the genome annotation file provided with the cellranger pipeline. repeat_msk.gtf is the repeat masker file. See [Velocyto.org](https://velocyto.org/velocyto.py/index.html).
 
